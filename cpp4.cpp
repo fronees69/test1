@@ -4,10 +4,10 @@ int main()
 {
 	int a;
 	int b;
-	int c = 4 * 4;
 	std::cin >> a;
 	std::cin >> b;
-	std::cout << c;
-	
+	std::cout << a + b << " plus" << std::endl;
+	std::cout << a * b << " umnojit";
+
 	return 0;
 }
